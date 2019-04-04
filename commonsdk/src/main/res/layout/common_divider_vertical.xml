@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<View
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/common_divider_width_1"
+    android:layout_height="match_parent"
+    android:background="@color/common_color_divider_E9EEF7"/>

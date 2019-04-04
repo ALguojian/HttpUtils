@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/white">
+
+        <ImageView
+            android:id="@+id/imgStateEmpty"
+            android:layout_width="188dp"
+            android:layout_height="188dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="132dp"
+            tools:src="@drawable/common_ic_state_empty"/>
+
+        <TextView
+            android:id="@+id/tvStateEmpty"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/imgStateEmpty"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="12dp"
+            android:layout_marginRight="12dp"
+            android:gravity="center_horizontal"
+            android:text="暂无数据"
+            android:textColor="#878794"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:id="@+id/tvStateTip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvStateEmpty"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="12dp"
+            android:layout_marginRight="12dp"
+            android:layout_marginTop="4dp"
+            android:gravity="center_horizontal"
+            android:textColor="#FFA9A9B8"
+            android:textSize="14sp"
+            android:text="点击去邀请，邀请您的发型师加入"
+            android:visibility="visible"/>
+    </RelativeLayout>
+</android.support.v4.widget.NestedScrollView>

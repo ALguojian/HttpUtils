@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:state_enabled="true">
+        <shape android:shape="rectangle">
+            <size android:height="@dimen/common_btn_height_large_54"/>
+            <solid android:color="@color/common_btn_primary_C3A373"/>
+        </shape>
+    </item>
+
+    <item android:state_enabled="false">
+        <shape android:shape="rectangle">
+            <size android:height="@dimen/common_btn_height_large_54"/>
+            <solid android:color="@color/common_color_btn_disable_DAD9E2"/>
+        </shape>
+    </item>
+</selector>

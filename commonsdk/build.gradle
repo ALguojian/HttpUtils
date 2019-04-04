@@ -1,0 +1,63 @@
+apply plugin: 'com.android.library'
+
+android {
+    compileSdkVersion configs.compileVersion
+    defaultConfig {
+        minSdkVersion configs.minVersion
+        targetSdkVersion configs.targetVersion
+        versionCode 1
+        versionName "1.0"
+
+        buildConfigField "boolean", "USE_LOG", "$configs.useLog"
+        buildConfigField "boolean", "IS_DEVELOP_ENV", "$configs.isDevelopEnv"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+    dataBinding {
+        enabled = true
+    }
+
+    resourcePrefix 'common_'
+}
+
+dependencies {
+    api fileTree(include: ['*.jar'], dir: 'libs')
+    api libs.v7
+    api libs.constraint
+    api libs.design
+    api libs.cardView
+    api libs.recyclerView
+    api libs.multiDex
+    api libs.retrofit2
+    api libs.okHttp3
+    api libs.okIO
+    api libs.rxJava2
+    api libs.okHttp3
+    api libs.rxAndroid
+    api libs.rxPermissions2
+    api libs.gson
+    api libs.converterGson
+    api libs.arouter
+    api libs.swipeBackLayout
+    api libs.glide
+    api libs.glideOkHttp
+    api libs.baseRecyerAdapterHelper
+    api libs.upyun
+    api libs.kprogressHud
+    api libs.wxLib
+    api libs.bugly
+    api libs.okdownload
+    api libs.okdownloadHttp
+    api libs.okdownloadSqlite
+    annotationProcessor libs.glideProcess
+}

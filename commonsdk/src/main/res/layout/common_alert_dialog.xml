@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardBackgroundColor="@color/common_color_white"
+    app:cardCornerRadius="@dimen/common_card_radius_8"
+    tools:layout_margin="20dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:minWidth="280dp"
+        android:orientation="vertical"
+        android:paddingTop="28dp">
+
+        <TextView
+            android:id="@+id/tvTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:layout_marginLeft="24dp"
+            android:layout_marginRight="24dp"
+            android:textColor="@color/common_text_color_primary_39364D"
+            android:textSize="@dimen/common_text_size_16"
+            tools:text="提示"/>
+
+        <TextView
+            android:id="@+id/tvMsg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:layout_marginLeft="24dp"
+            android:layout_marginRight="24dp"
+            android:gravity="center"
+            android:lineSpacingExtra="@dimen/common_line_spacing_8"
+            android:textColor="@color/common_text_color_secondary_878794"
+            android:textSize="@dimen/common_text_size_small_14"
+            tools:text="告知当前状态，信息和解决方法 \n告知当前状态，信息和解决方法"/>
+
+        <include layout="@layout/common_divider_light_horizontal"/>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/btnNature"
+                style="@style/common_Btn.AlertPositive"
+                android:layout_width="match_parent"
+                android:visibility="gone"
+                tools:text="确认"/>
+
+            <LinearLayout
+                android:id="@+id/btnsContainer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/btnNeg"
+                    style="@style/common_Btn.AlertNegative"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:textColor="@color/common_text_color_secondary_878794"
+                    tools:text="取消"/>
+
+                <include layout="@layout/common_divider_vertical"/>
+
+                <Button
+                    android:id="@+id/btnPos"
+                    style="@style/common_Btn.AlertPositive"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    tools:text="确认"/>
+            </LinearLayout>
+        </FrameLayout>
+    </LinearLayout>
+</android.support.v7.widget.CardView>

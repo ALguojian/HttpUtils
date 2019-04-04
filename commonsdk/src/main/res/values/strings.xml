@@ -1,0 +1,17 @@
+<resources>
+    <string name="common_btn_bottom_alter_dialog_cancel">取消</string>
+    <string name="common_btn_bottom_alert_dialog_complete">完成</string>
+    <string name="common_text_label_to">至</string>
+    <string name="common_text_loading">加载中</string>
+    <string name="common_toast_net_error">网络错误，请检查网络设置</string>
+    <string name="common_toast_completed">已完成</string>
+    <string name="common_toast_download_success">下载成功</string>
+    <string name="common_toast_save_album">已保存到相册</string>
+    <string name="common_toast_download_fail">下载失败</string>
+    <string name="common_btn_i_knew">我知道了</string>
+    <string name="common_btn_later">以后再说</string>
+    <string name="common_btn_edit">编辑</string>
+    <string name="common_btn_cancel">取消</string>
+    <string name="common_btn_confirm">确定</string>
+    <string name="common_btn_next_step">下一步</string>
+</resources>

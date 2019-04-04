@@ -1,0 +1,136 @@
+<resources>
+
+    <!-- common application theme -->
+    <style name="common_Toolbar">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/common_toolbar_height</item>
+        <item name="android:background">@color/common_color_white</item>
+    </style>
+
+    <style name="common_Toolbar.Title"
+           parent="Base.TextAppearance.AppCompat.Title">
+        <item name="android:textColor">@color/common_text_color_primary_39364D</item>
+        <item name="android:textSize">@dimen/common_text_toolbar_size_18</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <!-- common window animation -->
+    <style name="common_SlideWindowAnimationStyle"
+           parent="@android:style/Animation.Activity">
+        <item name="android:activityOpenEnterAnimation">@anim/common_open_enter</item>
+        <item name="android:activityOpenExitAnimation">@anim/common_open_exit</item>
+        <item name="android:activityCloseEnterAnimation">@anim/common_close_enter</item>
+        <item name="android:activityCloseExitAnimation">@anim/common_close_exit</item>
+    </style>
+
+    <style name="common_FadeWindowAnimationStyle"
+           parent="@android:style/Animation.Translucent">
+        <item name="android:windowEnterAnimation">@android:anim/fade_in</item>
+        <item name="android:windowExitAnimation">@android:anim/fade_out</item>
+    </style>
+
+    <!-- common button -->
+    <style name="common_Btn" parent="Base.Widget.AppCompat.Button.Borderless">
+        <item name="android:textSize">@dimen/common_text_btn_size_16</item>
+        <item name="android:textColor">@color/common_text_color_white</item>
+        <item name="android:layout_height">@dimen/common_btn_height_48</item>
+        <item name="android:minHeight">0dp</item>
+        <item name="android:minWidth">0dp</item>
+        <item name="android:background">@null</item>
+        <item name="android:typeface">normal</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="common_Btn.Primary">
+        <item name="android:layout_height">@dimen/common_btn_height_large_54</item>
+        <item name="android:background">@drawable/common_btn_primary_large</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="common_Btn.White">
+        <item name="android:textColor">@color/common_text_color_primary_39364D</item>
+        <item name="android:background">@color/common_color_white</item>
+    </style>
+
+    <style name="common_Btn.White.Large">
+        <item name="android:layout_height">@dimen/common_btn_height_large_54</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="common_Btn.Accent">
+        <item name="android:layout_height">@dimen/common_btn_height_large_54</item>
+        <item name="android:background">@drawable/common_btn_accent_large</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="common_Btn.Accent2">
+        <item name="android:layout_height">@dimen/common_btn_height_large_54</item>
+        <item name="android:background">@drawable/common_btn_accent2_large</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/common_selector_btn_text_primary_light</item>
+    </style>
+
+    <style name="common_Btn.Accent2Corner">
+        <item name="android:layout_height">@dimen/common_btn_height_48</item>
+        <item name="android:background">@drawable/common_btn_accent2_with_corner</item>
+        <item name="android:textColor">@color/common_selector_btn_text_primary_light</item>
+    </style>
+
+    <style name="common_Btn.AlertPositive">
+        <item name="android:textColor">@color/common_btn_primary_C3A373</item>
+    </style>
+
+    <style name="common_Btn.AlertNegative">
+        <item name="android:textColor">@color/common_text_color_secondary_878794</item>
+    </style>
+
+    <!-- common dialog -->
+    <style name="common_Dialog" parent="@style/Theme.AppCompat.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <!-- 边框 -->
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <!-- 是否启用标题栏 -->
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:windowAnimationStyle">@style/common_DialogAnimation</item>
+    </style>
+
+    <style name="common_Dialog.FullScreen">
+        <item name="android:windowFullscreen">true</item>
+    </style>
+
+    <style name="common_DialogAnimation">
+        <item name="android:windowEnterAnimation">@anim/common_dialog_enter_anim</item>
+        <item name="android:windowExitAnimation">@anim/common_dialog_exit_anim</item>
+    </style>
+
+    <style name="common_DialogBottomToTopAnim" mce_bogus="1" parent="android:Animation">
+        <item name="android:windowEnterAnimation">@anim/common_dialog_enter_anim</item>
+        <item name="android:windowExitAnimation">@anim/common_dialog_exit_anim</item>
+    </style>
+
+    <style name="common_CardView">
+        <item name="cardCornerRadius">@dimen/common_card_radius_8</item>
+        <item name="cardElevation">@dimen/common_card_elevation_8</item>
+    </style>
+
+    <style name="common_Tabs">
+        <item name="tabGravity">fill</item>
+        <item name="tabMode">fixed</item>
+        <item name="tabIndicatorWidth">18dp</item>
+        <item name="tabIndicatorHeight">3dp</item>
+        <item name="tabIndicatorCorner">2dp</item>
+        <item name="tabIndicatorColor">@color/common_color_primary_C3A373</item>
+        <item name="tabTextColor">@color/common_text_color_secondary_878794</item>
+        <item name="tabSelectedTextColor">@color/common_color_primary_C3A373</item>
+    </style>
+
+    <style name="common_TabText" parent="TextAppearance.Design.Tab">
+        <item name="android:textSize">@dimen/common_text_size_16</item>
+        <item name="textAllCaps">false</item>
+    </style>
+
+</resources>

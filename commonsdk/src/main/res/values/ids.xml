@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <item name="common_page_change_listener" type="id"/>
+    <item name="commonTitle" type="id"/>
+    <item name="stateLoading" type="id" tools:ignore="ResourceName"/>
+    <item name="stateEmpty" type="id" tools:ignore="ResourceName"/>
+    <item name="stateError" type="id" tools:ignore="ResourceName"/>
+    <item name="stateContent" type="id" tools:ignore="ResourceName"/>
+    <item name="toolbar" type="id" tools:ignore="ResourceName"/>
+    <item name="common_recycler_footer" type="layout"/>
+    <item name="common_toolbar" type="id"/>
+</resources>

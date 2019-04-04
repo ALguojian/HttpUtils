@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="common_padding">14dp</dimen>
+
+    <!-- common text size -->
+    <dimen name="common_number_size_xlarge_40">40sp</dimen>
+    <dimen name="common_number_size_large_30">30sp</dimen>
+    <dimen name="common_title_size_xlarge_24">24sp</dimen>
+    <dimen name="common_title_size_20">20sp</dimen>
+    <dimen name="common_text_size_16">16sp</dimen>
+    <dimen name="common_text_size_small_14">14sp</dimen>
+    <dimen name="common_text_size_xsmall_12">12sp</dimen>
+    <dimen name="common_text_size_xxsmall_10">10sp</dimen>
+    <dimen name="common_text_toolbar_size_18">18sp</dimen>
+
+    <dimen name="common_text_btn_size_16">16sp</dimen>
+    <dimen name="common_text_toast_size_13">13sp</dimen>
+    <dimen name="common_text_label_size_12">12sp</dimen>
+    <dimen name="common_text_label_size_small_10">10sp</dimen>
+
+    <!-- common button size -->
+    <dimen name="common_btn_height_48">48dp</dimen>
+    <dimen name="common_btn_height_large_54">54dp</dimen>
+    <dimen name="common_btn_radius_24">24dp</dimen>
+
+    <!-- others -->
+    <dimen name="common_toolbar_height">44dp</dimen>
+    <dimen name="common_toolbar_elevation">0.5dp</dimen>
+    <dimen name="common_divider_width_1">1dp</dimen>
+    <dimen name="common_divider_width_1_half">0.5dp</dimen>
+    <dimen name="common_line_spacing_8">8dp</dimen>
+    <dimen name="common_card_radius_8">8dp</dimen>
+    <dimen name="common_card_elevation_8">8dp</dimen>
+
+    <dimen name="common_swipe_back_edge_size">30dp</dimen>
+</resources>

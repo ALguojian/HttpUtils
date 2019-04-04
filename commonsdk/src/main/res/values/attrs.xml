@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools"
+           tools:ignore="ResourceName">
+
+    <!-- 宽高比 -->
+    <attr name="aspectRatio" format="float"/>
+
+    <declare-styleable name="StateViewAnimator">
+        <attr name="contentView" format="reference"/>
+        <attr name="emptyView" format="reference"/>
+        <attr name="loadingView" format="reference"/>
+        <attr name="errorView" format="reference"/>
+    </declare-styleable>
+
+    <declare-styleable name="CustomTabLayout">
+        <!-- 指示器颜色 -->
+        <attr name="tabIndicatorColor" format="color"/>
+        <!-- 指示器高度 -->
+        <attr name="tabIndicatorHeight" format="dimension"/>
+        <!-- 指示器宽度-->
+        <attr name="tabIndicatorWidth" format="dimension"/>
+        <!-- 指示器圆角大小 -->
+        <attr name="tabIndicatorCorner" format="dimension"/>
+        <!-- 以下同原生TabLayout-->
+        <attr name="tabContentStart" format="dimension"/>
+        <attr name="tabBackground" format="reference"/>
+        <attr name="tabMode"/>
+        <attr name="tabGravity"/>
+        <attr name="tabMinWidth" format="dimension"/>
+        <attr name="tabMaxWidth" format="dimension"/>
+        <attr name="tabTextAppearance" format="reference"/>
+        <attr name="tabTextColor" format="color"/>
+        <attr name="tabSelectedTextColor" format="color"/>
+        <attr name="tabPaddingStart" format="dimension"/>
+        <attr name="tabPaddingTop" format="dimension"/>
+        <attr name="tabPaddingEnd" format="dimension"/>
+        <attr name="tabPaddingBottom" format="dimension"/>
+        <attr name="tabPadding" format="dimension"/>
+    </declare-styleable>
+
+    <declare-styleable name="AspectRatioImageView">
+        <attr name="aspectRatio"/>
+    </declare-styleable>
+
+    <declare-styleable name="CommonToolbar">
+        <!-- homeup icon -->
+        <attr name="homeUp" format="reference"/>
+        <!-- 是否使用homeup-->
+        <attr name="homeUpEnable" format="boolean"/>
+        <!-- 标题 -->
+        <attr name="title" format="string"/>
+        <!-- menu icon-->
+        <attr name="ivMenu" format="reference"/>
+        <!-- menu 文字-->
+        <attr name="tvMenu" format="string"/>
+        <!-- menu文字颜色-->
+        <attr name="tvMenuColor" format="color"/>
+        <!-- menu文字左侧图标-->
+        <attr name="tvMenuDrawable" format="reference"/>
+        <!-- menu文字左侧图表间距-->
+        <attr name="tvMenuDrawPadding" format="dimension"/>
+    </declare-styleable>
+
+    <declare-styleable name="FormItemView">
+        <!-- 左侧描述文本-->
+        <attr name="formDesc" format="string"/>
+        <!-- 右侧内容文本 -->
+        <attr name="formValue" format="string"/>
+        <!-- 描述文本颜色 -->
+        <attr name="descColor" format="color"/>
+        <!-- 描述文本大小 -->
+        <attr name="descSize" format="dimension"/>
+        <!-- 内容文本颜色 -->
+        <attr name="valueColor" format="color"/>
+        <!-- 内容文本大小 -->
+        <attr name="valueSize" format="dimension"/>
+        <!-- 内容文本是否加粗 -->
+        <attr name="valueBold" format="boolean"/>
+        <!-- 描述文本是否加粗 -->
+        <attr name="descBold" format="boolean"/>
+        <!-- 分割线view引用，无则不显示 -->
+        <attr name="divider" format="reference"/>
+        <!-- 描述文本左侧padding-->
+        <attr name="descPaddingLeft" format="dimension"/>
+        <!-- 内容文本右侧padding -->
+        <attr name="valuePaddingRight" format="dimension"/>
+    </declare-styleable>
+</resources>

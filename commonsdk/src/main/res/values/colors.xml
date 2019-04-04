@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- common theme color -->
+    <color name="common_color_primary_C3A373">#C3A373</color>
+    <color name="common_color_primary_light_E6D1B1">#E6D1B1</color>
+    <color name="common_color_accent_FF6600">#FF6600</color>
+    <color name="common_color_accent2_333333">#333333</color>
+
+    <!-- common text color -->
+    <color name="common_text_color_primary_39364D">#39364D</color>
+    <color name="common_text_color_secondary_878794">#878794</color>
+    <color name="common_text_color_tertiary_A9A9B8">#A9A9B8</color>
+    <color name="common_text_color_default_DAD9E2">#DAD9E2</color>
+    <color name="common_text_color_hint_DAD9E2">#DAD9E2</color>
+    <color name="common_text_color_white">@color/common_color_white</color>
+
+    <!-- common button color -->
+    <color name="common_btn_primary_C3A373">@color/common_color_primary_C3A373</color>
+    <color name="common_btn_accent_FF6600">@color/common_color_accent_FF6600</color>
+    <color name="common_btn_accent2_333333">@color/common_color_accent2_333333</color>
+    <color name="common_color_btn_disable_DAD9E2">#DAD9E2</color>
+
+    <!-- common stroke and divider -->
+    <color name="common_color_divider_E9EEF7">#E9EEF7</color>
+    <color name="common_color_stroke_E9EEF7">#E9EEF7</color>
+    <color name="common_color_divider_light_F5F7FA">#F5F7FA</color>
+    <color name="common_color_stroke_light_F5F7FA">#F5F7FA</color>
+    <color name="common_color_stroke_dark_DAD9E2">#DAD9E2</color>
+
+    <!-- others -->
+    <color name="common_color_background_F8F7FC">#F8F7FC</color>
+    <color name="common_color_background_F5F7FA">#F5F7FA</color>
+    <color name="common_color_white">#FFFFFF</color>
+    <color name="common_color_black">#000000</color>
+    <color name="common_color_transparent">#00ffffff</color>
+
+    <color name="common_color_red_dark_FB6455">#FB6455</color>
+    <color name="common_color_red_light_FC6C5D">#FC6C5D</color>
+    <color name="common_color_red_lighter_FF8D7C">#FF8D7C</color>
+</resources>
